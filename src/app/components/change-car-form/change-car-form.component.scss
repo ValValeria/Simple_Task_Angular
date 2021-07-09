@@ -1,0 +1,11 @@
+@import "src/styles/variables";
+
+::ng-deep section.change-car-form{
+  width: 100% !important;
+  min-width: 50vw;
+
+  .section__wrap{
+    padding: $margin*2 0;
+  }
+}
+

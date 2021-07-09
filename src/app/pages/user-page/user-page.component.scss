@@ -1,0 +1,18 @@
+@import "src/styles/variables";
+
+::ng-deep .mat-form-field-infix{
+  max-width: 100px;
+}
+
+table ::ng-deep .mat-form-field-wrapper{
+  padding-top: $margin;
+}
+
+::ng-deep section.navigation .section__wrap, ::ng-deep section.user .section__wrap{
+  padding-top: $margin * 2;
+  padding-bottom: $margin * 2;
+}
+
+a{
+  text-decoration: none;
+}

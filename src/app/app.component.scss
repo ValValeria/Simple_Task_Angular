@@ -1,0 +1,12 @@
+.app-container{
+  min-height: 100vh;
+  width: 100vw !important;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.section{
+  width: 100vw;
+}
